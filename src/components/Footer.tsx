@@ -60,8 +60,11 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-blue-400 pt-6 md:pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-3 md:gap-4 text-blue-100 text-xs md:text-sm">
-            <p>&copy; 2026 Dr. Graziano Raffaele. Tutti i diritti riservati.</p>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-3 md:gap-4 text-blue-100 text-xs md:text-sm mb-4 md:mb-6">
+            <div className="text-center md:text-left">
+              <p>&copy; 2026 Dr. Graziano Raffaele. Tutti i diritti riservati.</p>
+              <p className="mt-1 md:mt-2">P.IVA: 08400550722 | Attività: 869021 - Fisioterapia</p>
+            </div>
             <div className="flex gap-4 md:gap-6">
               <a href="https://www.instagram.com/grazianoraffaele.fisio/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                 Instagram
