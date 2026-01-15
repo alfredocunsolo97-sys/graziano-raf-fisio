@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #2C5AA0;
+  --color-secondary: #4ECDC4;
+}
+
 @layer base {
   body {
     @apply bg-white text-gray-900;
