@@ -81,7 +81,7 @@ export default function Home() {
               <img
                 src="/images/graziano-portrait.jpg"
                 alt="Dr. Graziano Raffaele"
-                className="w-full h-full object-contain rounded-xl md:rounded-2xl shadow-xl md:shadow-2xl"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
@@ -89,14 +89,14 @@ export default function Home() {
       </section>
 
       {/* Chi Sono Section */}
-      <section className="py-12 md:py-20 lg:py-28 bg-gradient-to-br from-primary/5 to-secondary/5">
+      <section className="py-12 md:py-20 lg:py-28 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="relative w-full aspect-[4/3] lg:aspect-auto lg:h-[450px] order-2 lg:order-1">
               <img
                 src="/images/therapy-session.jpg"
                 alt="Sessione di fisioterapia"
-                className="w-full h-full object-contain rounded-xl md:rounded-2xl shadow-xl"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="space-y-4 md:space-y-6 order-1 lg:order-2">
@@ -118,7 +118,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-12 md:py-20 lg:py-28 bg-white">
+      <section className="py-12 md:py-20 lg:py-28 bg-white/95">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-3 md:mb-4">
@@ -148,7 +148,7 @@ export default function Home() {
       </section>
 
       {/* Reviews Section */}
-      <section className="py-10 md:py-14 lg:py-16 bg-primary/5">
+      <section className="py-10 md:py-14 lg:py-16 bg-primary/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-2 md:mb-4">
@@ -179,7 +179,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contatti" className="py-12 md:py-20 lg:py-28 bg-white">
+      <section id="contatti" className="py-12 md:py-20 lg:py-28 bg-white/95">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
@@ -253,7 +253,7 @@ export default function Home() {
               <img
                 src="/images/clinic-therapy.jpg"
                 alt="Studio fisioterapico"
-                className="w-full h-full object-contain rounded-xl md:rounded-2xl shadow-xl md:shadow-2xl"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>

@@ -44,7 +44,7 @@ export default function ChiSono() {
               <img
                 src="/images/graziano-portrait.jpg"
                 alt="Dr. Graziano Raffaele"
-                className="w-full h-full object-contain rounded-xl md:rounded-2xl shadow-lg md:shadow-xl"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="space-y-4 md:space-y-6">
