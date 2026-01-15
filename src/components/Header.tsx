@@ -10,15 +10,9 @@ export default function Header() {
       <div className="container mx-auto px-4 py-3 md:py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
-          <div className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer">
-            <div className="w-9 h-9 md:w-10 md:h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-base md:text-lg">GR</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="text-base md:text-lg font-bold text-primary">Dr. Graziano Raffaele</h1>
-              <p className="text-[10px] md:text-xs text-gray-500">Fisioterapista</p>
-            </div>
-          </div>
+          <h1 className="text-lg md:text-xl font-bold text-primary hover:opacity-80 transition-opacity cursor-pointer">
+            Dr. Graziano Raffaele
+          </h1>
         </Link>
 
         {/* Desktop Navigation */}
